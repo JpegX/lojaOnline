@@ -1,0 +1,45 @@
+.corpoSite{
+  width: 1140px;
+
+  .paicard{
+    margin-top: 20px;
+    width:200px;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 14px;
+
+
+    .card{
+
+      height: auto;
+      // margin:0 auto;
+      // width: auto;
+      // padding: 0;
+      background-color: rgb(212, 212, 212);
+      &:hover{
+        box-shadow: 0.3rem 1rem 2rem rgba(0,0,0,.175)!important;
+        cursor:pointer;
+      }
+      .linkcard{
+        text-decoration:none;
+      }
+      .textcard{
+
+        color:black;
+        .promocao{
+            text-decoration: line-through;
+            color: gray;
+            margin: 0 auto;
+            font-size: 13px;
+        }
+      }
+    }
+    .cardImg1{
+      width: 200px;
+    }
+    .cardImg4{
+      margin-top:10px
+    }
+  }
+}
+

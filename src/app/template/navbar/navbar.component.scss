@@ -1,0 +1,91 @@
+.navbarra{
+  .container{
+    margin: 0;
+    max-width: 100%;
+
+    .imagem{
+
+      width: 300px;
+    }
+    .botao{
+      font-size: 1.5rem;
+      border-radius: 3px;
+      border: none;
+      background: none;
+      outline: none;
+      &:focus{
+        outline: 0;
+      }
+    }
+    .nav-link{
+      color: rgb(255, 255, 255);
+
+    }
+    .barrapesquisa{
+      background-color: rgb(255, 255, 255);
+      color: darkgrey;
+    }
+    .form{
+      margin: 0;
+    .caixa-input{
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      flex-direction: column;
+      font-weight: 0;
+      width: 400px;
+      margin: 10px 30px;
+      margin-top: 27px;
+      margin-bottom:0;
+    }
+    .botaoCategorias{
+      padding: 0;
+      width: 100px;
+      color: rgb(94, 94, 94);
+    }
+  }
+}
+ .licarrinho{
+   margin-top: 32px;
+   height: 32px;
+   margin-left: 32px;
+  .carrinhoCompras{
+    font-size: 2rem;
+    margin-top: 40px;
+  }
+}
+  .dropdown-menu{
+    padding: 0;
+    margin-top: 5px;
+    .itemDropdown{
+      background-color: #333;
+      color:rgb(255, 255, 255);
+      border: 0;
+
+      &:hover {
+        color: #000000;
+        background: #83caee;
+        cursor: pointer;
+      }
+    }
+  }
+  .navbar-nav{
+    width: 240px;
+    height: 70px;
+    margin-left: 250px;
+
+    .botaoEntrar{
+      margin-top: 45px;
+      margin-right: 6px;
+      padding-top: 0;
+      padding-bottom: 0;
+      color: rgb(94, 94, 94);
+    }
+    .botaoCadastrese{
+    margin-top:45px;
+    margin-left: none;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: rgb(94, 94, 94);
+    }
+  }
+}
