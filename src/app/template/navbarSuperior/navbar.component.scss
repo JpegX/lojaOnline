@@ -1,7 +1,5 @@
-.navbarra{
-  .container{
-    margin: 0;
-    max-width: 100%;
+.navbarraSuperior{
+  .container-fluid{
 
     .imagem{
 
@@ -37,22 +35,37 @@
       margin-top: 27px;
       margin-bottom:0;
     }
-    .botaoCategorias{
-      padding: 0;
-      width: 100px;
-      color: rgb(94, 94, 94);
-    }
+    .links{
+      display:flex;
+      .dropdown{
+        width: 100px;
+        .botaoCategorias{
+          padding: 0px;
+          color:rgb(94, 94, 94);
+        }
+      }
+      .ofertasDia{
+        height: 0px;
+        margin: 0 0 0 10px;
+        text-decoration:none;
+        color: rgb(94, 94, 94);
+       }
+     }
+   }
   }
-}
- .licarrinho{
-   margin-top: 32px;
-   height: 32px;
-   margin-left: 32px;
+.licarrinho{
+  margin-top: 32px;
+  height: 32px;
+
   .carrinhoCompras{
     font-size: 2rem;
-    margin-top: 40px;
+
   }
 }
+  .imgEntregaGratis{
+    height: 53px;
+    width: 102px;
+  }
   .dropdown-menu{
     padding: 0;
     margin-top: 5px;
